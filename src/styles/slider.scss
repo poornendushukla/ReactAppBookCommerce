@@ -1,0 +1,13 @@
+.slider-image {
+  width: 160px;
+  height: 250px;
+  img {
+    width: 100%;
+    border-radius: 3%;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2)
+  }
+}
+
+.slider div:nth-child(2){
+  max-width: 90% !important;
+}

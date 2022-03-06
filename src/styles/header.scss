@@ -1,0 +1,76 @@
+.header-wrapper {
+  background-color: #fbfcff;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  padding: 0;
+  .navbar-brand {
+    color: #ff9f45 !important;
+    font-weight: 700;
+    &:hover {
+      color: #f76e11 !important;
+    }
+    .icon {
+      font-size: 130%;
+    }
+    .brand {
+      vertical-align: text-bottom;
+    }
+  }
+  .search-box {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    form {
+      width: 50%;
+    }
+  }
+  .custom-nav {
+    .navbar-nav {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      .nav-item {
+        padding-right: 5%;
+        font-size: 120%;
+      }
+    }
+  }
+  .fa-shopping-cart {
+    position: relative;
+    .cart-item-number {
+      color: #fff;
+      background: orange;
+      position: absolute;
+      top: -54%;
+      padding: 3px 7px;
+      border-radius: 15px;
+      font-size: 78%;
+      font-weight: 500;
+      left: 15px;
+    }
+  }
+  .header-username,.btn-success.dropdown-toggle {
+    background: transparent !important;
+    border: none !important;
+    color: rgba(0,0,0,.55) !important;
+    font-weight: 700;
+    padding-top: 8%;
+    text-transform: capitalize;
+    &:hover{
+      background: transparent;
+      border: none;
+      color: #f76e11
+    }
+  }
+  .dropdown-item:hover {
+    color: #fff;
+    background-color: #f76e11;
+}
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f76e11 !important;
+}
